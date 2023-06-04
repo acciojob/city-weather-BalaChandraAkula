@@ -18,7 +18,7 @@ function App() {
     }
   };
 
-  const kelvinToFahrenheit = (k) => ((k - 273.15) * 9) / 5 + 32;
+  const kelvinToFahrenheit = (a) => ((a - 273.15) * 9) / 5 + 32;
 
   return (
     <div className="app">
